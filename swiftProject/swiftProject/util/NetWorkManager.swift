@@ -21,6 +21,11 @@ class NetWorkManager: NSObject {
             
         }
     }
+    
+    public func PostNetworkWithURL(url:String,parameters:Dictionary<String, Any>) -> Void
+    {
+//        Alamofire.request(url, method: HTTPMethod.post, parameters: parameters, encoding: JSONEncoding.default, headers: nil).responseJSON(completionHandler: <#T##(DataResponse<Any>) -> Void#>)
+    }
 }
 
 
